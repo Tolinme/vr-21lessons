@@ -134,7 +134,7 @@ const getVGTK = (url) => {
     }
 };
 
-getVGTK(proxyUrl + targetUrl);
+getVGTK(targetUrl);
 
 function changeDay() {
   isToday = !isToday;
