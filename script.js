@@ -1,4 +1,3 @@
-const proxyUrl = "https://cors-anywhere.herokuapp.com/";
 const date = document.querySelector(".date");
 const box = document.querySelector(".box");
 let SCHEDULE = [];
@@ -76,7 +75,7 @@ const getVGTK = (url) => {
 
   fetch(url, {
   headers: {
-    Access-Control-Allow-Origin: "https://yaroslavyaroslavov.github.io"
+    Access-Control-Allow-Origin: "https://tolinme.github.io"
   }
 })
     .then((response) => response.text())
