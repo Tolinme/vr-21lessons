@@ -75,7 +75,7 @@ const getVGTK = (url) => {
 
   fetch(url, {
   headers: {
-    Access-Control-Allow-Origin: "https://tolinme.github.io"
+    Access-Control-Allow-Origin: "https://yaroslavyaroslavov.github.io"
   }
 })
     .then((response) => response.text())
