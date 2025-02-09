@@ -74,7 +74,11 @@ const mergeSplittedCells = (tableElement) => {
 const getVGTK = (url) => {
   let SCHEDULE = [];
 
-  fetch(url)
+  fetch(url, {
+  headers: {
+    Access-Control-Allow-Origin: "https://yaroslavyaroslavov.github.io"
+  }
+})
     .then((response) => response.text())
     .then((data) => {
       const tempElement = document.createElement("div");
